@@ -9,7 +9,7 @@ function Header() {
         {/*Left*/}
         <div className="relative flex items-center cursor-pointer h-10 my-auto">
             <Image 
-              src={logoImage}
+              src="https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg"
               fill
               alt="logo"
              className=" object-contain object-left"
