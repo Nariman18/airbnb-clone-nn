@@ -6,7 +6,7 @@ function Header() {
     <header className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10">
 
         {/*Left*/}
-        <div className="relative flex items-center cursor-pointer mt-3">
+        <div className="relative flex items-center cursor-pointer h-10 my-auto">
             <Image 
               src='https://links.papareact.com/qd3 '
               fill
