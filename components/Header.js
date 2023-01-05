@@ -6,13 +6,12 @@ function Header() {
     <header className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10">
 
         {/*Left*/}
-        <div>
+        <div className="relative flex items-center cursor-pointer mt-3">
             <Image 
               src='https://links.papareact.com/qd3 '
-              width={100}
-              height={100}
+              fill
               alt="logo"
-             className=" object-contain object-left relative flex items-center cursor-pointer mt-3"
+             className=" object-contain object-left"
              
             />
         </div>
