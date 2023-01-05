@@ -1,5 +1,6 @@
 import Image from "next/image"
 import {SearchIcon, GlobeAltIcon, MenuIcon, UserCircleIcon, UsersIcon} from '@heroicons/react/solid'
+import logoImage from "../public/Airbnb.png"
 
 function Header() {
   return (
@@ -8,7 +9,7 @@ function Header() {
         {/*Left*/}
         <div className="relative flex items-center cursor-pointer h-10 my-auto">
             <Image 
-              src='https://links.papareact.com/qd3 '
+              src={logoImage}
               fill
               alt="logo"
              className=" object-contain object-left"
