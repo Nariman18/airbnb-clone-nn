@@ -12,8 +12,6 @@ module.exports = {
       
     ],
   },
-  env: {
-    access_token: 'pk.eyJ1IjoibmFyaW1hbjE4IiwiYSI6ImNsY2tzdXJkNDBmc3EzbnJ5bTA3bG1ocWcifQ.3pfCqSB6S4JCopV83sSMfA'
-  },
+ 
   reactStrictMode: true,
 }

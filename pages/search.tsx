@@ -51,11 +51,7 @@ function Search({searchResult}: any) {
 
             </section>
 
-            <section className='hidden xl:inline-flex xl:min-w-[40%] sticky top-[76px] h-[40em] cursor-pointer'>
-              <Mapbox 
-                searchResult={searchResult}
-              />
-            </section>
+
         </main>
 
        <Footer />
