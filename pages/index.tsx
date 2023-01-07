@@ -7,7 +7,7 @@ import LargeCard from "../components/LargeCard";
 import Footer from "../components/Footer";
 
 
-export default function Home({ exploreData, cardsData }: any) {
+export default function Home({ exploreData, cardsData, placeholder }: any) {
   
   
   return (
@@ -19,7 +19,7 @@ export default function Home({ exploreData, cardsData }: any) {
       
     
     {/*Header*/}
-    <Header />
+    <Header placeholder={placeholder} />
     {/*Banner*/} 
     <Banner />
 
